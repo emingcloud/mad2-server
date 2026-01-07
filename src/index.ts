@@ -1,6 +1,7 @@
 import express from "express";
 import DotEnv from "./core/service/DotEnv";
 import app from "./app";
+import generateQR from "./helper/generateQR";
 
 const server = express();
 
